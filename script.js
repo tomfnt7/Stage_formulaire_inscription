@@ -33,7 +33,7 @@
             .then((data)=> {
                 console.log("data =>", data)
                 message.innerHTML=data.message;
-                messageContainer.classList.toggle("hidden")/*class list permet de ciblé la classe MessageContainer afin de faire apparaître le message de validation ou nn de l'inscription*/
+                messageContainer.classList.add("hidden")/*class list permet de ciblé la classe MessageContainer afin de faire apparaître le message de validation ou nn de l'inscription*/
                 if (data.success===true){
                     formContainer.classList.toggle("hidden")
                 }

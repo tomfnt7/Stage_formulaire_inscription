@@ -26,11 +26,8 @@ form{
     margin-bottom: 30px;
 }
 
-#messageContainer{
-    display:none;
+.hidden{
+    display: none;
 }
-#message{
-    display:none;
 
-}
 
