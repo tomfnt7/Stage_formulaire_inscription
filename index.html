@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="police_family" class="flex">
+
+<h2>Formulaire d'inscription</h2>
+
+<div id="messageContainer" >
+    <label id="message">message Box</label>
+</div>
+
+<div id="error"></div>
+ <form id="form" action= "/" method="get">
+     <div>
+         <label for="name">Nom :</label><br/>
+        <input id="name" name="name" type="text" >
+     </div>
+     <div>
+         <label for="surname">Prénom :</label><br/>
+         <input id="surname" name="surname" type="text" required>
+     </div>
+     <div>
+         <label for="email">Adresse mail :</label><br/>
+         <input id="email" name="email" type="text" required>
+     </div>
+     <div>
+         <label for="password">Mot de passe :</label><br/>
+         <input id="password" name="password" type="password">
+     </div><br/>
+     <button class="submit" type="submit">Envoyer</button>
+ </form>
+</body>
+</html>

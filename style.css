@@ -1,0 +1,36 @@
+
+/*alignement du contenu*/
+.flex {
+    display:flex;
+    justify-content: center;
+}
+
+/*  taille et style de la police d'écriture */
+.police_family{
+    font-family: Calibri;
+}
+
+/* design du contour*/
+form{
+}
+/* design du bouton "envoyer" */
+.button{
+    border-radius: 20px;
+    padding: 20px;
+    border: rgba(121, 247, 201,0.60);
+ background-color: rgba(121, 247, 201,0.60);
+}
+/* ajuste la taille de l'image */
+.image{
+    max-width: 20%;
+    margin-bottom: 30px;
+}
+
+#messageContainer{
+    display:none;
+}
+#message{
+    display:none;
+
+}
+
